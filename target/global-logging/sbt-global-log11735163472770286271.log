@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(submit jophmartel@gmail.com liFY0ZwwrjkRX1Pj, Some(30f241ff-0b03-4923-90de-e42d29d59f7b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: submit[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/knoldus/IdeaProjects/forcomp/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scalafix on 2 Scala sources[0m
+[0m[[0m[0minfo[0m] [0m[0mAttempting to submit "forcomp" assignment in "scala2-functional-programming" course[0m
+[0m[[0m[0minfo[0m] [0m[0mUsing:[0m
+[0m[[0m[0minfo[0m] [0m[0m- email: jophmartel@gmail.com[0m
+[0m[[0m[0minfo[0m] [0m[0m- submit token: liFY0ZwwrjkRX1Pj[0m
+[0m[[0m[0minfo[0m] [0m[0mConnecting to Coursera...[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully connected to Coursera. (Status 201)[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mAssignment submitted successfully![0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mYou can see how you scored by going to:[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.coursera.org/learn/scala2-functional-programming/programming/nKKjy/[0m
+[0m[[0m[0minfo[0m] [0m[0mor (for premium learners):[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.coursera.org/learn/scala2-functional-programming/programming/VFM6A[0m
+[0m[[0m[0minfo[0m] [0m[0m                       [0m
+[0m[[0m[0minfo[0m] [0m[0mand clicking on "My Submission".[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 7 s, completed 08-Nov-2022, 3:24:27 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

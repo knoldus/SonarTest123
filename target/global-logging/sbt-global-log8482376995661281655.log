@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.2 (Oracle Corporation Java 19)
+[debug]       Load.loadUnit: plugins took 96.509066ms
+[debug]       Load.loadUnit: defsScala took 0.256864ms
+[debug] [Loading] Scanning directory /home/knoldus/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/knoldus/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 33.003046 ms
+[debug]           Load.resolveProject(global-plugins) took 65.843343ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/knoldus/.sbt/1.0/plugins, plugins: List(<none>))) took 134.553491ms
+[debug] [Loading] Done in /home/knoldus/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 165.90021ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.349817ms
+[debug]     Load.loadUnit(file:/home/knoldus/.sbt/1.0/plugins/, ...) took 272.789317ms
+[debug]   Load.apply: load took 552.068822ms
+[debug]   Load.apply: resolveProjects took 12.145085ms
+[debug]   Load.apply: finalTransforms took 111.289586ms
+[debug]   Load.apply: config.delegates took 7.849523ms
+[debug]   Load.apply: Def.make(settings)... took 684.684693ms
+[debug]   Load.apply: structureIndex took 177.238711ms
+[debug]   Load.apply: mkStreams took 2.237549ms
+[info] loading global plugins from /home/knoldus/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4812.536212ms
+[debug]           Load.loadUnit: plugins took 11.647527ms
+[debug]           Load.loadUnit: defsScala took 0.003259ms
+[debug] [Loading] Scanning directory /home/knoldus/Knoldus/QaSonarTest/project
+[debug]             Load.loadUnit: mkEval took 3.78377ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/knoldus/Knoldus/QaSonarTest/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.231257 ms
+[info] loading settings for project qasonartest-build from buildSettings.sbt,plugins.sbt ...
+[debug]               Load.resolveProject(qasonartest-build) took 33.489073ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id qasonartest-build, base: /home/knoldus/Knoldus/QaSonarTest/project, plugins: List(<none>))) took 37.356718ms
+[debug] [Loading] Done in /home/knoldus/Knoldus/QaSonarTest/project, returning: (qasonartest-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3079.520753ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.90596ms
+[debug]         Load.loadUnit(file:/home/knoldus/Knoldus/QaSonarTest/project/, ...) took 3098.874838ms
+[debug]       Load.apply: load took 3100.894324ms
+[debug]       Load.apply: resolveProjects took 0.234342ms
+[debug]       Load.apply: finalTransforms took 17.30414ms
+[debug]       Load.apply: config.delegates took 0.557131ms
+[debug]       Load.apply: Def.make(settings)... took 109.828231ms
+[debug]       Load.apply: structureIndex took 36.880969ms
+[debug]       Load.apply: mkStreams took 0.004131ms
+[info] loading project definition from /home/knoldus/Knoldus/QaSonarTest/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to /home/knoldus/Knoldus/QaSonarTest/project/target/scala-2.12/sbt-1.0/classes ...
+[info] done compiling
+[debug]     Load.loadUnit: plugins took 11809.940041ms
+[debug]     Load.loadUnit: defsScala took 0.012803ms
+[debug] [Loading] Scanning directory /home/knoldus/Knoldus/QaSonarTest
+[debug]       Load.loadUnit: mkEval took 0.234036ms
